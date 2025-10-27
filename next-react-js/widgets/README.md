@@ -1,4 +1,16 @@
+## About
+
+A simple website for creating, reading, updating and deleting widgets.
+
+The Production site published at https://widgets-chi-seven.vercel.app/.
+
+### Stack
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
+We use Playwright for e2e testing (see: https://nextjs.org/docs/pages/guides/testing/playwright).
+
+The data is being stored on `IndexedDB` in `NextReactJsWidgetsPlaygroundDB` using Dexie ORM (see: https://dexie.org/docs/Tutorial/React and [db.ts](./app/db.ts)).
 
 ## Getting Started
 
@@ -14,7 +26,7 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result. If you already have a process using that port, you should see the url in the terminal (e.g., http://localhost:3001).
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
