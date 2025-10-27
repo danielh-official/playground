@@ -2,7 +2,7 @@
 
 A simple website for creating, reading, updating and deleting widgets.
 
-The Production site published at https://widgets-chi-seven.vercel.app/.
+The Production site is published at https://next-js-widgets.vercel.app/.
 
 ### Stack
 

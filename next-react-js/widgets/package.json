@@ -7,9 +7,11 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "prepare": "husky"
   },
   "dependencies": {
+    "@vercel/analytics": "^1.5.0",
     "dexie": "^4.2.1",
     "dexie-react-hooks": "^4.2.0",
     "next": "16.0.0",
@@ -26,6 +28,8 @@
     "eslint-config-next": "16.0.0",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-prettier": "^5.5.4",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.2.6",
     "prettier": "^3.6.2",
     "tailwindcss": "^4",
     "typescript": "^5"
