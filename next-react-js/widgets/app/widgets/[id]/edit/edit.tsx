@@ -101,6 +101,7 @@ export default function EditWidget(props: EditWidgetProps) {
               name="name"
               value={name}
               onChange={(e) => setName(e.target.value)}
+              aria-label="name"
             />
             <input
               type="text"
@@ -109,6 +110,7 @@ export default function EditWidget(props: EditWidgetProps) {
               name="description"
               value={description}
               onChange={(e) => setDescription(e.target.value)}
+              aria-label="description"
             />
             <input
               type="url"
@@ -117,6 +119,7 @@ export default function EditWidget(props: EditWidgetProps) {
               name="url"
               value={url}
               onChange={(e) => setUrl(e.target.value)}
+              aria-label="url"
             />
             <input
               type="number"
@@ -125,6 +128,7 @@ export default function EditWidget(props: EditWidgetProps) {
               name="number"
               value={number}
               onChange={(e) => setNumber(Number(e.target.value))}
+              aria-label="number"
             />
             <button
               type="submit"

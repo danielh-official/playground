@@ -71,6 +71,7 @@ export default function CreateWidget() {
               required
               name="name"
               suppressHydrationWarning
+              aria-label="name"
             />
             <input
               type="text"
@@ -78,6 +79,7 @@ export default function CreateWidget() {
               className="p-2 border border-zinc-300 rounded"
               name="description"
               suppressHydrationWarning
+              aria-label="description"
             />
             <input
               type="url"
@@ -85,6 +87,7 @@ export default function CreateWidget() {
               className="p-2 border border-zinc-300 rounded"
               name="url"
               suppressHydrationWarning
+              aria-label="url"
             />
             <input
               type="number"
@@ -92,11 +95,13 @@ export default function CreateWidget() {
               className="p-2 border border-zinc-300 rounded"
               name="number"
               suppressHydrationWarning
+              aria-label="number"
             />
             <button
               type="submit"
               className="p-2 rounded bg-blue-500 text-white hover:bg-blue-600 cursor-pointer"
               suppressHydrationWarning
+              aria-label="Create Widget"
             >
               Create Widget
             </button>
