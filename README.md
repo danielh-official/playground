@@ -6,4 +6,5 @@ The repository uses husky, prettier and eslint to maintain a consistent coding s
 
 ## Project List
 
-- [Next (React.js) - Widgets](./next-react-js/widgets/README.md)
+- [Next (React.js) - Widgets](./next-react-js/widgets/README.md) &mdash; Status: Completed
+- [Blazor ASP.NEt Core - Widgets](./blazor-asp-net-core/widgets/README.md) &mdash; Status: Todo
