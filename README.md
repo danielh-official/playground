@@ -1,10 +1,19 @@
 # Playground
 
-A monorepo for experimenting with various frameworks used in building web, desktop, Android, and iOS applications.
+A central repository for linking to repositories that experiment with various frameworks used in building web, desktop, Android, iOS, etc. applications.
 
-The repository uses husky, prettier and eslint to maintain a consistent coding style across different projects.
+## Project List - Widgets
 
-## Project List
+### Status: Completed
 
-- [Next (React.js) - Widgets](./next-react-js/widgets/README.md) &mdash; Status: Completed
-- [Blazor ASP.NEt Core - Widgets](./blazor-asp-net-core/widgets/README.md) &mdash; Status: Todo
+- [Next (React.js) - JavaScript/Typescript](https://github.com/danielh-official/next-js-widgets)
+
+### Status: Todo
+
+- Blazor ASP.Net Core - C#
+- Django - Python
+- Rails - Ruby
+- Android - Kotlin
+- iOS - Swift
+- Laravel - PHP
+- Spring Boot - Java
